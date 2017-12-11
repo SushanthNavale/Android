@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:fillViewport="false">
+
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            card_view:contentPaddingTop="50dp"
+            card_view:contentPadding="10dp"
+            card_view:cardElevation="2dp"
+            card_view:cardCornerRadius="15dp"
+            card_view:cardPreventCornerOverlap="false"
+            card_view:cardBackgroundColor="#FFCCBC">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:stretchColumns="1">
+                <View
+                    android:layout_height="2dip"
+                    android:background="#FF909090" />
+
+                <TextView
+                    style="@style/Base.TextAppearance.AppCompat.Headline"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Central GST"
+                    android:textAlignment="center"
+                    android:textSize="30sp" />
+                <View
+                    android:layout_height="2dip"
+                    android:background="#FF909090" />
+
+
+                <TextView
+                    style="@style/Base.TextAppearance.AppCompat.Body1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0.5dp"
+                    android:layout_marginRight="0.5dp"
+                    android:visibility="visible"
+                    android:text="Intra-State supply of goods or services is when the location of the supplier and the place of supply i.e., location of the buyer are in the same state. In Intra-State transactions, a seller has to collect both CGST and SGST from the buyer. The CGST gets deposited with Central Government and SGST gets deposited with State Government."
+                    android:textAllCaps="false"
+                    android:textSize="14sp" />
+            </TableLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            card_view:contentPaddingTop="40dp"
+            card_view:contentPadding="10dp"
+            card_view:cardElevation="2dp"
+            card_view:cardCornerRadius="15dp"
+            card_view:cardPreventCornerOverlap="false"
+            card_view:cardBackgroundColor="#CFD8DC">
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:stretchColumns="1">
+                <View
+                    android:layout_height="2dip"
+                    android:background="#FF909090" />
+
+
+                <TextView
+                    style="@style/Base.TextAppearance.AppCompat.Headline"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="State GST"
+                    android:textAlignment="center"
+                    android:textSize="30sp" />
+                <View
+                    android:layout_height="2dip"
+                    android:background="#FF909090" />
+
+                <TextView
+                    style="@style/Base.TextAppearance.AppCompat.Body1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="0.5dp"
+                    android:layout_marginRight="0.5dp"
+                    android:visibility="visible"
+                    android:text="Inter-State supply of goods or services is when the location of the supplier and the place of supply are in different states. Also, in cases of export or import of goods or services or when the supply of goods or services is made to or by a SEZ unit, the transaction is assumed to be Inter-State. In an Inter-State transaction, a seller has to collect IGST from the buyer."
+                    android:textAllCaps="false"
+                    android:textSize="14sp" />
+            </TableLayout>
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            card_view:contentPaddingTop="40dp"
+            card_view:contentPadding="10dp"
+            card_view:cardElevation="2dp"
+            card_view:cardCornerRadius="15dp"
+            card_view:cardPreventCornerOverlap="true"
+            card_view:cardBackgroundColor="#DCEDC8">
+
+            <com.github.mikephil.charting.charts.PieChart
+                android:id="@+id/chart1"
+                android:layout_width="300dp"
+                android:layout_height="400dp"/>
+
+        </android.support.v7.widget.CardView>
+
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>

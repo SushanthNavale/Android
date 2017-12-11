@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "951116276320",
+    "firebase_url": "https://easygst-9fd1a.firebaseio.com",
+    "project_id": "easygst-9fd1a",
+    "storage_bucket": "easygst-9fd1a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:951116276320:android:67e6f466c74dad56",
+        "android_client_info": {
+          "package_name": "com.example.windows.easygst"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "951116276320-9pvgnnn4vb0h4thqtigt4bnavkab75cq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.windows.easygst",
+            "certificate_hash": "10e720d0eca7e0b9a744b1120338b31f03de9751"
+          }
+        },
+        {
+          "client_id": "951116276320-a8dvpbcn2gr5jdia8d1ap86q2olgnptk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNug8b2mIRKcSS3nKbS9fitvRnn9AZu_Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "951116276320-a8dvpbcn2gr5jdia8d1ap86q2olgnptk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.windows.easygst">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Splash_scree"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".home"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".calculate"
+            android:label="@string/title_activity_calculate"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".removeGST"
+            android:label="@string/title_activity_remove_gst"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".about"
+            android:label="@string/title_activity_about"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".search"
+            android:label="@string/title_activity_search"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".rate"
+            android:label="@string/title_activity_rate"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".rategoods"
+            android:label="@string/title_activity_rategoods"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".structure"
+            android:label="@string/title_activity_structure"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".state_tax"
+            android:label="@string/title_activity_state_tax"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".display" />
+        <activity android:name=".remove"></activity>
+    </application>
+
+</manifest>

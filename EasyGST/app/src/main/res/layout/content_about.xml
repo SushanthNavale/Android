@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    card_view:contentPaddingTop="58dp"
+    card_view:contentPadding="10dp"
+    card_view:cardElevation="2dp"
+    card_view:cardCornerRadius="15dp"
+    card_view:cardPreventCornerOverlap="false"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:stretchColumns="1">
+                <View
+                    android:layout_height="2dip"
+                    android:background="#FF909090" />
+
+                <TextView
+                    style="@style/Base.TextAppearance.AppCompat.Headline"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="About GST"
+                    android:textAlignment="center"
+                    android:textSize="30sp" />
+                <View
+                    android:layout_height="2dip"
+                    android:background="#FF909090" />
+
+                <TextView
+                    style="@style/Base.TextAppearance.AppCompat.Body1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="0.5dp"
+                    android:layout_marginRight="0.5dp"
+                    android:visibility="visible"
+                    android:text="GST is a single uniform indirect tax which was introduced to replace Central and State indirect taxes such as VAT, CENVAT, and others. GST applies on all types of businesses, small or large. This makes it one of the greatest tax reforms in the country. The entire nation will follow a unified tax structure.As the name suggests, GST will be applicable on both goods and services and India will follow a dual system of GST to keep both the Centre and State independent of each other. The GST council will be headed by the Union Finance Minister and it will consist of various State Finance Ministers. GST will be devised as a four-tiered tax structure with tax slabs of 5%, 12%, 18%, and 28% for various different categories of products and services. 0% rate is kept for most essential goods such as rice, wheat."
+                    android:textAllCaps="false"
+                    android:textSize="14sp" />
+
+
+
+            </TableLayout>
+
+
+        </LinearLayout>
+
+
+</android.support.v7.widget.CardView>

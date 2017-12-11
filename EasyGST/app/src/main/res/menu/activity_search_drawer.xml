@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+    </group>
+    <item
+        android:id="@+id/about"
+        android:icon="?android:attr/actionModePasteDrawable"
+        android:title="About GST" />
+    <item
+        android:id="@+id/search"
+        android:icon="@android:drawable/ic_search_category_default"
+        android:title="Search GST" />
+    <item
+        android:id="@+id/structure"
+        android:icon="@android:drawable/ic_dialog_map"
+        android:title="GST Structure" />
+    <item
+        android:id="@+id/rate"
+        android:icon="@android:drawable/ic_menu_help"
+        android:title="GST Rates" />
+    <item android:title="Calculator">
+        <menu>
+            <item
+                android:id="@+id/calgst"
+                android:icon="@android:drawable/ic_menu_edit"
+                android:title="Calculate GST" />
+            <item
+                android:id="@+id/rmvgst"
+                android:icon="@android:drawable/ic_menu_edit"
+                android:title="Remove GST" />
+        </menu>
+    </item>
+</menu>
